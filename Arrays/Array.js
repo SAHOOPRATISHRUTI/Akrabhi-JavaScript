@@ -31,4 +31,6 @@ fruits.push("Kiwi");
 //const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.shift();
 
-
+//Javascript Array Unshift
+//const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon");
