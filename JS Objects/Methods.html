@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <h2>Use of <i>this</i> Keyword</h2>
+        <p id="demo"></p>
+
+        <script>
+                let person={
+                firstname:"Pratishruti",
+                lastname:"Sahoo",
+                age:21,
+                eyecolor:"black",
+
+                fullName:function()
+                {
+                    return this.firstname+" "+this.lastname;
+                }
+
+               
+            };
+
+            document.getElementById("demo").innerHTML=person.fullName();
+            
+        </script>
+    </body>
+</html>
