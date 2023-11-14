@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <h1>Javascript Properties</h1>
+
+        <p id="demo"></p>
+
+        <script>
+            let person={
+                firstname:"Pratishruti",
+                lastname:"Sahoo",
+                age:21,
+                eyecolor:"black"
+            };
+
+            person.nationality="English";
+
+            delete person.age;
+
+            document.getElementById("demo").innerHTML=person.firstname+" "+person.nationality +" "+person.age;
+
+
+        </script>
+    </body>
+</html>
