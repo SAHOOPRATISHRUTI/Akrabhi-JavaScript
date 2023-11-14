@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Display an object</h2>
+        <p id="demo"></p>
+        <script>
+            let person={
+                firstname:"Pratishruti",
+                lastname:"Sahoo",
+                age:21,
+                eyecolor:"black",
+
+                fullName:function()
+                {
+                    this.firstname+" "+this.lastname;
+                }
+
+
+            };
+            document.getElementById("demo").innerHTML=person;
+        </script>
+    </body>
+</html>
